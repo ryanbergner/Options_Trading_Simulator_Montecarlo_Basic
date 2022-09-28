@@ -7,7 +7,7 @@ Welcome. I made this program so my roomates and I could better predict the futur
  https://www.youtube.com/watch?v=RETxgJcXBAY&ab_channel=Engineers.SG
  
  
-The program runs the path in a Markov Chain Monte Carlo simulation over multiple iterations to determine an accurate future value. This stock option process can be modeled as a Markov Chain because it is discrete and has the Markov property,(https://en.wikipedia.org/wiki/Markov_property) which only considers the n and (n - 1) steps in calculating the next step ; therefore, the larger history of the value of the stock is irrelevant in calculating the probability of the value at timestep (n + 1) (https://en.wikipedia.org/wiki/Markov_property). We can observe distribution of the ending value of the random walk (where step values are iid) approaches normal as more iterations are used in the simulation. More calculations in overleaf on the way (EXPECTED VALKUE AND VARIENCE).
+The program runs the path in a Markov Chain Monte Carlo simulation over multiple iterations to determine an accurate future value. This stock option process can be modeled as a Markov Chain because it is discrete and has the Markov property,(https://en.wikipedia.org/wiki/Markov_property) which only considers the n and (n - 1) steps in calculating the next step ; therefore, the larger history of the value of the stock is irrelevant in calculating the probability of the value at timestep (n + 1) (https://en.wikipedia.org/wiki/Markov_property). We can observe distribution of the ending value of the random walk (where step values are iid) approaches normal as more iterations are used in the simulation. More calculations in overleaf on the way (EXPECTED VALUE AND VARIENCE).
 
 E[X]:
 
